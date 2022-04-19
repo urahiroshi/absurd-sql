@@ -14,7 +14,7 @@ function getConfig(entry, filename, perf) {
       dir: perf ? 'dist/perf' : 'dist',
       entryFileNames: filename,
       chunkFileNames: `${basename}-[name]-[hash].js`,
-      format: 'esm',
+      format: 'cjs',
       exports: 'named'
     },
     plugins: [
