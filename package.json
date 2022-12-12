@@ -1,5 +1,5 @@
 {
-  "name": "absurd-sql",
+  "name": "@urahiroshi/absurd-sql",
   "version": "0.0.53",
   "main": "./dist/index.js",
   "scripts": {
@@ -37,5 +37,8 @@
   ],
   "dependencies": {
     "safari-14-idb-fix": "^1.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
